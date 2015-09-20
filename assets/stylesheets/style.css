@@ -1,0 +1,653 @@
+@import  url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*=fontawesome-]:before {
+    font-family: FontAwesome, sans-serif;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+ }
+
+body {
+    font-family: 'Open Sans';
+    line-height: 1.4em;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    background: url(../../img/stipling.png) left top #000;
+}
+
+/* HEADERS */
+h1,h2 {
+    font-weight: 800;
+    font-family: 'Roboto Slab';
+}
+
+h3,h4 {
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+
+h1 {
+    font-size: 6em;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 0 rgba(255,255,255,0.1);
+    text-align-last: justify;
+}
+
+h2 {
+    font-size: 1.4em;
+    line-height: 1em;
+    letter-spacing: -1px;
+}
+
+h3 {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 2em;
+    line-height: 1em;
+    text-shadow: 3px 3px 0 rgba(0,0,0,0.1);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+em {
+    font-style: italic;
+}
+
+ol {
+    margin: 20px 10px;
+}
+
+ol li {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+ol li:before {
+    content: "• ";
+    color: #dd7022; /* or whatever color you prefer */
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+p.tags span {
+    background: rgba(0,0,0,0.1);
+    padding: 2px 5px;
+    font-size: .8em;
+    text-transform: uppercase;
+    box-shadow: 0 4px 0 -3px rgba(0,0,0,0.2);
+}
+
+hr {
+    border: 0;
+    border-top: 1px rgba(0,0,0,0.05) solid;
+    border-bottom: 1px rgba(255,255,255,0.05) solid;
+    height: 1px;
+    margin: 30px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label,input,button,select,textarea {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+input,textarea {
+    -webkit-appearance: none;
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border linear .2s box-shadow linear .2s;
+    -moz-transition: border linear .2s box-shadow linear .2s;
+    -o-transition: border linear .2s box-shadow linear .2s;
+    transition: border linear .2s box-shadow linear .2s;
+    display: inline-block;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+textarea {
+    height: auto;
+    width: 90%;
+}
+
+#navigation div.mobile {
+    display: none;
+}
+
+/*PROJECTS*/
+.project {
+    background-image: url(../../img/stipling.png);
+    background-position: left top;
+    background-color: #232323;
+    padding: 20px 0;
+    margin-right: 50px;
+}
+
+.project h2 {
+    margin-bottom: 10px;
+    font-size: 3em;
+    text-shadow: 3px 3px 0 rgba(0,0,0,0.1);
+
+}
+
+.project .grid-container {
+    padding: 70px 70px 70px 0;
+}
+
+/* COLORS */
+#top {
+    background: #000 url(../../img/davegarwacke.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+#top .overlay {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+#top #skills {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px #fff solid;
+    border-right: 1px #fff solid;
+}
+
+#top #ruler {
+    height: 13px;
+    margin-top: -13px;
+}
+
+#top #ruler .hash {
+    width: 18%;
+    height: 5px;
+    border-left: 1px #fff solid;
+    display: inline-block;
+
+}
+
+#top .fblike {
+    position: absolute;
+    width:50px;
+    right: 60px;
+    top: 10px;
+}
+
+#top .smaller {
+    width: 100%;
+    float: right;
+    text-align: right;
+    margin-top: 5px;
+}
+
+#top .skill {
+    width: 100%;
+    text-align: right;
+    overflow: hidden;
+}
+
+#top .skill .thermometer {
+    background: none;
+    border: 1px #fff solid;
+    border-width: 0 0 1px 1px;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 5px 10px;
+    text-align: left;
+    width: 100%;
+    margin-left:100%;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.6);
+
+}
+
+.primary-colors {
+    background: #f7b155;
+}
+
+.primary-colors a {
+    color: rgba(0,0,0,0.7);
+}
+
+.lume-creative {
+    background-color: #249d71;
+}
+
+.lume-creative a {
+    color: rgba(0,0,0,0.7);
+}
+
+.if-you-make-it {
+    background-color: #12bea4;
+    color: rgba(0,0,0,0.8);
+}
+
+.if-you-make-it a {
+    color: rgba(0,0,0,0.8);
+}
+
+.greene-hill {
+    background-color: #3e9a55;
+}
+
+.greene-hill a {
+    color: rgba(0,0,0,0.8);
+}
+
+.pink-couch-sessions {
+    background-color: #c95658;
+}
+
+.pink-couch-sessions a {
+    color: rgba(0,0,0,0.6);
+}
+
+.refiltered {
+    background-color: #b43049;
+}
+
+.refiltered a {
+    color: rgba(0,0,0,0.8);
+}
+
+.laura-stevenson {
+    background-color: #333;
+    color: #aaa;
+}
+
+.laura-stevenson a {
+    color: #aaa;
+}
+
+.music {
+    background-color: #111;
+    color: #fff;
+}
+
+.music a {
+    color: #ccc;
+}
+
+.contact {
+    background-color: #000;
+    color: #bbb;
+}
+
+#navigation .contact, #navigation .contact a	 {
+	height:120px;
+}
+
+#navigation .contact span {
+	display:block;
+	margin: 65px 0px 0 -4px;
+	width: 60px;
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    transform: rotate(90deg);
+}
+
+.contact a {
+    color: #999;
+}
+
+.contact h2:first-child {
+    color: #fff;
+}
+
+/*CONTACT PAGE*/
+#contact .input {
+    position: relative;
+}
+
+#contact .input input {
+    padding-left: 25px;
+}
+
+#contact .input span {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#navigation .top {
+    background: #efefef;
+}
+
+#navigation .top a {
+    color: #232323;
+}
+
+#navigation .mobile-note {
+    padding: 2px 10px;
+    font-size: 10px;
+    text-align: right;
+    display: none;
+}
+
+.btn {
+    color: #222;
+    background-color: #12bea4;
+    border-color: #222;
+    padding: 10px 20px;
+    height: auto;
+    border-bottom: 5px #333 solid;
+    font-weight: 700;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.1);
+}
+
+.btn:hover {
+    background-color: #19ccb2;
+    border-color: #444;
+    padding: 10px 20px;
+    height: auto;
+}
+
+.success,.error {
+    color: #333;
+    position: fixed;
+    z-index: 101;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fde073;
+    text-align: center;
+    line-height: 2.5;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 5px #000;
+    -moz-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;
+    display: none;
+}
+
+.success {
+    background-color: #12bea4;
+}
+
+.error {
+    background-color: #ccac19;
+}
+
+/*NAVIGATION*/
+#navigation {
+    position: fixed;
+    top: -55px;
+    right: 0 !important;
+    margin: 0;
+    z-index: 102;
+    width: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+#navigation > div {
+    border-top: 1px rgba(255,255,255,.1) solid;
+    border-bottom: 1px rgba(0,0,0,.2) solid;
+    background-image: url(../../img/stipling.png);
+    background-position: left top;
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: relative;
+}
+
+#navigation div a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    z-index: 104;
+}
+
+#navigation div:hover a {
+    background: rgba(0,0,0,0.1);
+    color: #fff;
+}
+
+#navigation div a div {
+    display: block;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    z-index: 103;
+    vertical-align: top;
+
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+}
+
+/*VISIT LINK*/
+.meta {
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.meta span {
+    margin-right: 5px;
+}
+
+.meta a {
+    padding: 10px 15px;
+    display: inline-block;
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+.meta a:hover {
+    background: rgba(0,0,0,.1);
+}
+
+/*SLIDER*/
+.rslider-wrap {
+    margin-left: -11px;
+}
+
+.rslider {
+    border: 1px rgba(0,0,0,0.2) solid;
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslider li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslider li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslider img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+.rslides_tabs,.rslides_nav {
+    background: rgba(0,0,0,0.1);
+    margin: 0 auto;
+    text-align: right;
+}
+
+.rslides_tabs li {
+    display: inline-block;
+    border-right: 1px rgba(255,255,255,0.05) solid;
+    border-left: 1px rgba(0,0,0,0.1) solid;
+}
+
+.rslides_nav {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    display: none;
+    background: rgba(0,0,0,0);
+    opacity: 0;
+    top:0px;
+    left:0px;
+    z-index: 6
+}
+
+.rslides_nav.next {
+    margin-left:50%;
+}
+
+.rslides_tabs li a {
+    color: rgba(255,255,255,0.8);
+    padding: 5px 10px;
+    display: inline-block;
+    -moz-box-shadow: inset 0 0 10px rgba(0,0,0,0.02);
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.02);
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.02);
+}
+
+.rslides_tabs li a:hover {
+    background: rgba(255,255,255,0.05);
+}
+
+.rslides_tabs li.rslides_here {
+    background: rgba(255,255,255,0.2);
+}
+
+.slabtexted .slabtext {
+    display: 0;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.slabtextinactive .slabtext {
+    display: inline;
+    white-space: normal;
+    font-size: 1em !important;
+    letter-spacing: inherit !important;
+    word-spacing: inherit !important;
+    letter-spacing: 0 !important;
+    word-spacing: 0 !important;
+}
+
+.slabtextdone .slabtext {
+    display: block;
+    line-height: 1;
+}
+
+.widgetContainer {
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+/*SMALL SCREEN*/
+
+@media screen and (max-width: 1024px) {
+    .meta {
+        text-align: right;
+    }
+    
+    .project {
+        padding: 30px 0;
+    }
+    
+    .project h2 {
+        font-size: 2.6em;
+    }
+    
+    .project .grid-container {
+        padding: 20px;
+    }
+    
+    .project .info {
+        margin-top: 0;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px rgba(255,255,255,0.1) solid;
+    }
+    
+    .rslides_nav {
+        display: inline-block;
+    }
+    
+    .rslides_tabs {
+        display: none;
+    }
+    
+    .rslider-wrap {
+        margin-left: 0;
+        position: relative;
+    }
+
+    .top .fblike  {
+        right:60px;
+        bottom: 0;
+        left:auto;
+    }
+
+}
+
+@media screen and (max-width: 700px), screen and (max-height: 400px) {
+    #navigation {
+        top: -108px;
+    }
+    
+    #navigation div.mobile {
+        display: block;
+    }
+    
+    #navigation div.desktop {
+        display: none;
+    }
+
+}

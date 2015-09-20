@@ -1,0 +1,23 @@
+body{
+	font-family:Arial;
+	margin:0;
+	padding:0;
+	background:#222;
+	color: #fff;
+} 
+img { 
+	cursor: pointer;
+} 
+a { 
+	text-decoration:none; 
+	color:#deb729
+}
+div{
+	padding:20px;
+}
+
+h1,h3 {margin:0;padding:0;}
+h3 { font-style: italic;}
+
+hr { border:0; border-bottom:1px rgba(255,255,255,0.2) solid;}
+table { margin-left: 18px;}
